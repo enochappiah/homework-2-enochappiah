@@ -1,0 +1,3 @@
+The first diagram specifies a whole-part relationship between a Department as the aggregate and faculty as the constituent part. The department interacts with the faculty but the faculty have no knowledge of the department. The faculty is a multiple. Meaning a department can have multiple faculty.
+
+The second diagram specifies a has a relationhipe between the Sensor and Alarm Controller. Where each 1 Alarm Controller has one or more Sensors.
