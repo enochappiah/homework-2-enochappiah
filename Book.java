@@ -1,20 +1,13 @@
-public class Book implements Item {
-    private String name;
+public class Book extends Item {
     private String author;
 
     public Book(String name, String author) {
-        this.name = name;
+        super(name);
         this.author = author;
-    }
-
-    @Override
-    public String getName() {
-        return name;  
     }
 
     public String getAuthor() {
         return author;  
-        
     }
     
 
